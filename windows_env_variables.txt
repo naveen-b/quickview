@@ -1,0 +1,23 @@
+# Java SDK
+set JAVA_HOME=
+set PATH=%PATH%;%JAVA_HOME%/bin;
+
+# Java JRE
+set JRE_HOME=
+set PATH=%PATH%;%JRE_HOME%/bin;
+
+# Ant
+set ANT_HOME=
+set PATH=%PATH%;%ANT_HOME%/bin;
+
+# Android
+set ANDROID_HOME=<>/sdk
+set PATH=%PATH%;%ANDROID_HOME%/platform-tools;
+
+# Chrome for node
+set CHROME_BIN=<>/chrome.exe
+set PATH=%PATH%;%CHROME_BIN%;
+
+# OpenSSL for local certificate
+set OPENSSL_CONF=<>/openssl.cnf
+set PATH=%PATH%;%OPENSSL_CONF%;
